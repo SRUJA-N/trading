@@ -14,10 +14,7 @@ A full-stack, real-time paper trading application built with a professional tech
 
 
 **Login & Signup Page**
-``
-![alt text](<Screenshot 2025-08-13 201752.png>)
- ![alt text](<Screenshot 2025-08-13 201746.png>)
-**Main Trading Dashboard (with Live Chart)**
+`
 ``
 ![alt text](<Screenshot 2025-08-13 201726.png>)
 ## 🛠️ Tech Stack
