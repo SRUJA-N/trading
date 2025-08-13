@@ -43,8 +43,8 @@ You need to have the following software installed on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [git hub url]
-    cd paper-trading-platform
+    git clone https://github.com/SRUJA-N/Project-Paper-Trading.git
+    cd Project-Paper-Trading
     ```
 
 2.  **Set Up the Backend:**
@@ -55,7 +55,7 @@ You need to have the following software installed on your machine:
     * Create and activate a Python virtual environment:
         ```bash
         python -m venv my_env
-        source my_env/Scripts/activate  # On Windows
+        source my_env/Scripts/activate or ./my_env/Scripts/Activate # On Windows
         ```
     * Install the required Python packages:
         ```bash
@@ -70,7 +70,7 @@ You need to have the following software installed on your machine:
     * Open a **new terminal**.
     * Navigate to the frontend directory:
         ```bash
-        cd frontend
+        cd front
         ```
     * Install the required Node.js packages:
         ```bash
@@ -82,15 +82,16 @@ You need to have the following software installed on your machine:
 You will need two terminals running simultaneously.
 
 1.  **Run the Backend Server:**
-    * In your backend terminal (with the venv active), run:
+    * In your backend terminal (with the venv active) (my_env) PS C:\Users\hp\Desktop\test\Project-Paper-Trading\backend>, run:
         ```bash
         uvicorn main:app --reload
         ```
     * The backend will be running on `http://127.0.0.1:8000`.
 
 2.  **Run the Frontend Server:**
-    * In your frontend terminal, run:
+    * In your front/src terminal, run:
         ```bash
+        cd front/src 
         npm run dev
         ```
     * The application will open in your browser at `http://localhost:5173`.
