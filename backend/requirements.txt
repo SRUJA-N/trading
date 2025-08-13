@@ -1,34 +1,23 @@
-# ------------------------------
-# FastAPI backend framework
-# ------------------------------
-fastapi
+# FastAPI framework for building APIs
+fastapi==0.111.0
 
-# ------------------------------
-# ASGI server to run FastAPI
-# ------------------------------
-uvicorn[standard]
+# Uvicorn ASGI server with standard extras for running FastAPI
+uvicorn[standard]==0.23.2
 
-# ------------------------------
-# ORM for database models and queries
-# ------------------------------
-sqlalchemy
+# SQLAlchemy ORM for database interactions
+sqlalchemy==2.0.26
 
-# ------------------------------
-# PostgreSQL database driver
-# ------------------------------
-psycopg2-binary
+# PostgreSQL database adapter for Python
+psycopg2-binary==2.9.6
 
-# ------------------------------
-# Password hashing (bcrypt)
-# ------------------------------
-passlib[bcrypt]
+# Python JOSE library for JWT token creation and verification
+python-jose==3.3.0
 
-# ------------------------------
-# Environment variable management
-# ------------------------------
-python-dotenv
+# Passlib library for password hashing using bcrypt
+passlib[bcrypt]==1.7.5
 
-# ------------------------------
-# JWT authentication library
-# ------------------------------
-python-jose
+# Required for handling file uploads (multipart/form-data)
+python-multipart==0.0.6
+
+# Pydantic for data validation and settings management
+pydantic==2.6.2
