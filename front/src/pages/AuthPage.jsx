@@ -12,6 +12,8 @@ function AuthPage() {
   const [message, setMessage] = useState(''); // Displays success or error messages to the user
 
   const navigate = useNavigate(); // Hook from React Router for programmatic navigation
+// front/src/pages/AuthPage.jsx
+
 
   // --- FORM SUBMISSION LOGIC ---
   const handleSubmit = async (e) => {
