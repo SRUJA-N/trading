@@ -2,8 +2,8 @@
 // ROUTER IMPORTS
 // ------------------------------
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // React Router for page navigation
-import AuthPage from './pages/AuthPage';       // Login/Signup page
-import Dashboard from './pages/Dashboard';     // Main dashboard after login
+import AuthPage from './pages/AuthPage.jsx';       // Login/Signup page
+import Dashboard from './pages/Dashboard.jsx';     // Main dashboard after login
 import ProtectedRoute from './ProtectedRoute.jsx'; // Wrapper for routes that require authentication
 
 // ------------------------------
