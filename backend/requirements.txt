@@ -1,0 +1,34 @@
+# ------------------------------
+# FastAPI backend framework
+# ------------------------------
+fastapi
+
+# ------------------------------
+# ASGI server to run FastAPI
+# ------------------------------
+uvicorn[standard]
+
+# ------------------------------
+# ORM for database models and queries
+# ------------------------------
+sqlalchemy
+
+# ------------------------------
+# PostgreSQL database driver
+# ------------------------------
+psycopg2-binary
+
+# ------------------------------
+# Password hashing (bcrypt)
+# ------------------------------
+passlib[bcrypt]
+
+# ------------------------------
+# Environment variable management
+# ------------------------------
+python-dotenv
+
+# ------------------------------
+# JWT authentication library
+# ------------------------------
+python-jose
