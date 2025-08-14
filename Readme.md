@@ -15,8 +15,9 @@ A full-stack, real-time paper trading application built with a professional tech
 
 **Login & Signup Page**
 `
-``
-![alt text](<Screenshot 2025-08-13 201726.png>)
+``<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/e6deca13-f87d-44a5-9411-80396bf936a0" />
+
+
 ## 🛠️ Tech Stack
 
 | Category | Technology |
