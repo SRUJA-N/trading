@@ -47,7 +47,7 @@ You need to have the following software installed on your machine:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/SRUJA-N/Project-Paper-Trading.git
-    cd Project-Paper-Trading
+    cd Trading
     ```
 
 2.  **Set Up the Backend:**
@@ -77,7 +77,9 @@ You need to have the following software installed on your machine:
         ```
     * Install the required Node.js packages:
         ```bash
-        npm install
+        npm install vite@latest
+        npm start
+
         ```
 
 ### Running the Application
@@ -94,7 +96,7 @@ You will need two terminals running simultaneously.
 2.  **Run the Frontend Server:**
     * In your front/src terminal, run:
         ```bash
-        cd front/src 
+        cd front
         npm run dev
         ```
     * The application will open in your browser at `http://localhost:5173`.
