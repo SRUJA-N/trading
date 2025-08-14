@@ -14,7 +14,9 @@ A full-stack, real-time paper trading application built with a professional tech
 
 
 **Login & Signup Page**
-`
+`<img width="1914" height="1055" alt="Screenshot 2025-08-13 201746" src="https://github.com/user-attachments/assets/c9641fb1-0382-443a-8340-df5a71e3e30c" />
+<img width="1919" height="1079" alt="Screenshot 2025-08-13 201752" src="https://github.com/user-attachments/assets/d4ad8bea-809c-44fe-942b-19badc093d1c" />
+
 ``<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/e6deca13-f87d-44a5-9411-80396bf936a0" />
 
 
